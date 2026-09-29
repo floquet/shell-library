@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 printf "%s\n" "$(tput bold)$(date) ${BASH_SOURCE[0]}$(tput sgr0)"
 
-# invoke in directory holdling *.json scrapes
+# invoke in directory holding *.json scrapes
 # ./renamer
 
 counter=0
